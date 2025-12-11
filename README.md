@@ -145,8 +145,15 @@ create_staging_table >> fetch_crypto_data >> transform_crypto_data >> load_crypt
 
 ## How to Run
 
-### 1. Clone repository and move to project folder  
-### 2. Start services:
+### 1. Clone repository and move to project folder
+```bash
+git clone https://github.com/ynb4gang/modern-airflow-etl.git
+```
+### 2. Change into the project directory
+```bash
+cd modern-airflow-etl
+```
+### 3. Start services:
 ```bash
 docker-compose up -d
 ```
